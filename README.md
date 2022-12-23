@@ -3,13 +3,13 @@ Bugs and solution regarding python programming
 > ![WonkisnotesGIF](https://user-images.githubusercontent.com/67893091/209371871-5fb86326-0957-42e3-9ad0-ed0b20d54905.gif)
 ## 23/12/2022
 ### 1. urllib2.URLError: <urlopen error unknown url type: https>:
-For example:  
-import OpenSSL
-import OpenSSL.SSL
-import requests
-response = requests.get("http://www.doc.ic.ac.uk")
-![EmojiDevilGIF](https://user-images.githubusercontent.com/67893091/209396456-4c1d7275-5512-413a-ab7e-db9a2222dad1.gif)
-#### Can't connect to HTTPS URL because the SSL module is not available
+>For example:  
+>import OpenSSL
+>import OpenSSL.SSL
+>import requests
+>response = requests.get("http://www.doc.ic.ac.uk")
+>![EmojiDevilGIF](https://user-images.githubusercontent.com/67893091/209396456-4c1d7275-5512-413a-ab7e-db9a2222dad1.gif)
+>#### Can't connect to HTTPS URL because the SSL module is not available
 ```
 solution： 
 1. download pyopenssl cryptography
