@@ -8,7 +8,6 @@ Bugs and solution regarding python programming
 >import OpenSSL.SSL
 >import requests
 >response = requests.get("http://www.doc.ic.ac.uk")
->![EmojiDevilGIF](https://user-images.githubusercontent.com/67893091/209396456-4c1d7275-5512-413a-ab7e-db9a2222dad1.gif)
 >#### Can't connect to HTTPS URL because the SSL module is not available
 ```
 solution： 
