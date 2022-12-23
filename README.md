@@ -1,6 +1,6 @@
 # Note book Bugs-and-solution-regarding-python-programming
 Bugs and solution regarding python programming 
-> ![WonkisnotesGIF](https://user-images.githubusercontent.com/67893091/209371871-5fb86326-0957-42e3-9ad0-ed0b20d54905.gif)
+> ![ThinkingThinkAboutItGIF](https://user-images.githubusercontent.com/67893091/209397836-16f7c39b-304e-4dc9-b854-e4b8734ec6a9.gif)
 ## 23/12/2022
 ### 1. urllib2.URLError: <urlopen error unknown url type: https>: Can't connect to HTTPS URL because the SSL module is not available
 ```
