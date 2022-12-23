@@ -11,16 +11,20 @@ import requests
 response = requests.get("http://www.doc.ic.ac.uk")
 ```
 ```
-solution： 
+Windows - solution： 
 1. download pyopenssl cryptography
 (pip install --upgrade pip)
 pip uninstall pyopenssl cryptography
 pip install pyopenssl cryptography
 import openssl:
 python -v -c 'from OpenSSL import SSL'
-2. copy libcrypto-1_1-x64.dll & libssl-1_1-x64.dll and paste them to \Anaconda3\envs\py2\DLLs 
+2. copy \Anaconda3\envs\py2\Library\bin\ libcrypto-1_1-x64.dll & libssl-1_1-x64.dll and paste them to \Anaconda3\envs\py2\DLLs 
 Notice: py2 env
 this method is from https://www.youtube.com/watch?v=mN8SLBsvSCU
-```
 Finally, no bug in windows ~ happy
+```
+ ```
+Linux - solution： 
+ 🥹🥹🥹 No idea at all, please tell me if you know it ~~~
+ ```
  
