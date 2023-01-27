@@ -1,3 +1,4 @@
 create a env:
 source ~/miniconda3/etc/profile.d/conda.sh
 conda activate Caiwen_1121_torch_guided_diffusion
+nohup python segmentation_train.py
