@@ -1,9 +1,12 @@
+```
 from folktables import ACSDataSource, ACSEmployment
 
 data_source = ACSDataSource(survey_year='2018', horizon='1-Year', survey='person')
 acs_data = data_source.get_data(states=["CA"], download=True)
 features, label, group = ACSEmployment.df_to_numpy(acs_data)
-
+```
+Bug
+```
 Downloading data for 2018 1-Year person survey for CA...
 
 data\2018\1-Year\csv_pca.zip may be corrupted. Please try deleting it and rerunning this command.
@@ -47,8 +50,11 @@ File D:\Programmierung\Jupyter\envs\master_thesis_pre\lib\site-packages\folktabl
 
 
 FileNotFoundError: [Errno 2] No such file or directory: 'data\\2018\\1-Year\\psam_p06.csv'
+```
 
 works for me!!!
+https://github.com/zykls/folktables/issues/15
+```
 Hi,
 As a fellow windows user I ran into this same issue.
 Thought I would post the solution I came up with for any other windows users who want to use this dataset.
@@ -61,3 +67,4 @@ To: url = base_url + "/" + remote_fname
 The reason for this change is that os.path.join on windows will put a '' in between the path, but for a url the separator should always be '/' no matter the os.
 
 Note: There are other libraries that exist for combining url paths that could be used but this worked for my purposes.
+```
