@@ -7,5 +7,6 @@ nohup python segmentation_train.py
 kill -9 402
 YvtxzsKD0S
 远程传输数据 windows -> server
-- scp -rP 21654 D:/2023 code/nnUNet-master/dataset/nnUNet_raw/Dataset001_BAS root@region-102.seetacloud.com:/root/autodl-tmp
+scp -rP 21654 D:/2023 code/nnUNet-master/dataset/nnUNet_raw/Dataset001_BAS root@region-102.seetacloud.com:/root/autodl-tmp
 Note: P 代表 port 要大写
+tar cf - *| ssh -p 21654 root@region-102.seetacloud.com "cd /root/autodl-tmp/data && tar xf -"
