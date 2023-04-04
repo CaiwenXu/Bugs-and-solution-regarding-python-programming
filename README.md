@@ -60,4 +60,12 @@ Linux - solution：
             torch.nn.utils.clip_grad_norm_(self.network.parameters(), 12)
             self.optimizer.step()
  ```
- 
+tutorial of the visualization tools:
+useful links:
+https://cloud.tencent.com/developer/article/1631058
+
+Steps:
+1. open ITK-SNAP 
+2. Segmentation -> export as surface mesh -> save
+3. open the saved files via ParaView
+4. Coloring--> Edit-->colormap-->how to change the color with more freedom???
